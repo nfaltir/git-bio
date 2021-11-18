@@ -48,6 +48,11 @@ body{
     text-align: center;
 }
 
+.main {
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
 .top-lang{
    
     width: 600px;
