@@ -106,3 +106,28 @@ footer{
     font-family: sans-serif;
     color: slateblue;
 }
+
+hr{
+    color: slategray;
+}
+/*-----------------------------------------Media Queries-------------------------------------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+    .header > h2 > a img:after {
+        cursor: pointer;
+        background-color: #FF7800;
+    }
+    .top-lang > p > img{
+        width: 360px;
+    }
+    .git-stats > p > img{
+        width: 360px;
+    }
+    .git-streaks > p > img{
+        width: 360px;
+    }
+    footer{
+        margin-top: 300px;
+        margin-bottom: 0px;
+    }
+}
