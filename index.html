@@ -5,31 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles.css">
     <title>MyGit Stats</title>
 </head>
 
 
 <body>
-    <div class="header">
-        <h1>My Github Stats</h1>
+    <div class="header mt-20">
+        <h1 class="text-4xl tracking-widest mt-12">Norvin's Github Stats</h1>
            <h2>
             <a href="https://github.com/nfaltir" target="_blank">
                 <img class="git-avatar" alt="React" src="https://avatars.githubusercontent.com/u/43119210?v=4" />
             </a>
            </h2>
     </div>
-    <div class="main">
-        <div class="git-streaks">
-            <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=nfaltir" alt="nfaltir" /></p>
-        </div>
-        <div class="git-stats">
-            <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=nfaltir&show_icons=true&locale=en" alt="nafaltir" /></p></p>
+    <div class="container mx-auto px-4 py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <!-- Card for GitHub Streaks -->
+            <div class="rounded-lg p-4">
+                <div class="text-center mb-4">
+                    <img class="w-full mx-auto" src="https://github-readme-streak-stats.herokuapp.com/?user=nfaltir" alt="nfaltir" />
+                </div>
+            </div>
+
+            <!-- Card for GitHub Stats -->
+            <div class="rounded-lg p-4">
+                <div class="text-center mb-4">
+                    <img class="w-full mx-auto" src="https://github-readme-stats.vercel.app/api?username=nfaltir&show_icons=true&locale=en" alt="nafaltir" />
+                </div>
+            </div>
+
+            <!-- Card for Top Languages -->
+            <div class="rounded-lg p-4">
+                <div class="text-center mb-4">
+                    <img class="w-full mx-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nfaltir&layout=compact" alt="nafaltir" />
+                </div>
+            </div>
         </div>
     </div>
     
     <footer>
-        Norvin © 2021 🍍
+        Norvin © 2023 🍍
     </footer>
 
 </body>
